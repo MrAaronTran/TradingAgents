@@ -186,9 +186,12 @@ def select_deep_thinking_agent(provider) -> str:
     # Define deep thinking llm engine options with their corresponding model names
     DEEP_AGENT_OPTIONS = {
         "openai": [
+            ("GPT-5 - Latest model with strong capabilities", "gpt-5"),
+            ("GPT-5-mini - Latest compact model with good performance", "gpt-5-mini"),
+            ("GPT-5-nano - Latest ultra-lightweight model for basic operations", "gpt-5-nano"),
             ("GPT-4.1-nano - Ultra-lightweight model for basic operations", "gpt-4.1-nano"),
             ("GPT-4.1-mini - Compact model with good performance", "gpt-4.1-mini"),
-            ("GPT-4o - Standard model with solid capabilities", "gpt-4o"),
+            ("GPT-4o - Previous model with solid capabilities", "gpt-4o"),
             ("o4-mini - Specialized reasoning model (compact)", "o4-mini"),
             ("o3-mini - Advanced reasoning model (lightweight)", "o3-mini"),
             ("o3 - Full advanced reasoning model", "o3"),
